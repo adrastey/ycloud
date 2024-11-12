@@ -7,6 +7,6 @@ jobs:
     - name: Send Telegram Message
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ TG}}
+        to: ${{ TG.-4527603109}}
         token: ${{ TG.6578656535:AAHgLYgctI1jXiBQK0KY1RhHbByoBie-j1g }}
         message: "GitHub Action Event Triggered!"
