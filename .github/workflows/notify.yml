@@ -9,4 +9,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_CHAT_ID }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: "GitHub Action Event Triggered!"
+        message: "Сообщение с GitHub о том, что мы смогли отправить сообщение в тг, подливая что-то в гитхаб!"
