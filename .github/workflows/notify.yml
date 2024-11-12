@@ -7,6 +7,6 @@ jobs:
     - name: Send Telegram Message
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ secrets.-4527603109 }}
-        token: ${{ secrets.6578656535:AAHgLYgctI1jXiBQK0KY1RhHbByoBie-j1g }}
+        to: ${{ secrets.TELEGRAM_CHAT_ID }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
         message: "GitHub Action Event Triggered!"
